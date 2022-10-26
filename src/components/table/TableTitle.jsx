@@ -1,7 +1,7 @@
 import React from 'react'
 import { useNavigate } from 'react-router-dom'
 import styled from 'styled-components'
-import AppButton from '../ui/AppButton'
+import AppButton from '../css/AppButton'
 
 const TitleBlock = styled.div`
 	width: 100%;

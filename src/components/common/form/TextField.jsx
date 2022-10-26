@@ -13,7 +13,7 @@ const FieldInput = styled.input`
 	width: 100%;
 	font-size: 18px;
 	padding: 10px;
-	border: 1px solid #1a1717;
+	border: 1px solid #7dc996;
 	background: none;
 	color: #1a1717;
 	:focus-visible {

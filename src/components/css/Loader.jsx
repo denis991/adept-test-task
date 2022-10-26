@@ -3,7 +3,7 @@ import styled from 'styled-components'
 
 const LoaderBlock = styled.div`
 	width: 100%;
-	padding-top: 30vh;
+	padding-top: 31vh;
 	display: flex;
 	flex-direction: column;
 	align-items: center;
@@ -13,17 +13,12 @@ const LoaderBlock = styled.div`
 	}
 `
 
-const Block = styled.div`
-	perspective: 120px;
-`
 
 
 const Loader = () => {
 	return (
 		<LoaderBlock>
-			<Block>
 				<p>Loading...</p>
-			</Block>
 		</LoaderBlock>
 	)
 }

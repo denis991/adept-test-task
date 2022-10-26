@@ -2,7 +2,7 @@
 import { setLoadingError } from './error'
 import { createSlice,  } from '@reduxjs/toolkit'
 
-import employeeService from '../services/employee.service'
+import employeeService from '../actions/employee'
 import { changeCompany } from './company'
 
 

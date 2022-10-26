@@ -1,7 +1,7 @@
 import React from 'react'
 import { Route, Routes } from 'react-router-dom'
 import DataLoader from '../components/common/DataLoader'
-import GlobalStyles from '../components/ui/GlobalStyles'
+import GlobalStyles from '../components/css/GlobalStyles'
 import MainLayout from '../layouts/main'
 import AddCompany from './add-company'
 import AddEmployee from './add-employee'

@@ -23,7 +23,7 @@ const ModalBlock = styled.div`
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	border: 1px solid #1a1717;
+	border: 1px solid #7dc996;
 	border-radius: 5px;
 	background-image: url('bg.jpeg');
 	background-repeat: no-repeat;

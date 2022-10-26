@@ -4,8 +4,8 @@ import {
 	getCompaniesDataLoadedStatus,
 	getCompaniesLoadingStatus,
 	loadCompaniesList,
-} from '../../store/company'
-import Loader from '../ui/Loader'
+} from '../../redux/reducers/company'
+import Loader from '../css/Loader'
 
 
 

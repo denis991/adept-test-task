@@ -6,7 +6,7 @@ import styled from 'styled-components'
 import { useDispatch, useSelector } from 'react-redux'
 import { useNavigate } from 'react-router-dom'
 import AppModal from '../components/common/AppModal'
-import { addEmployee, getEmployeesCurrentCompany } from '../store/employee'
+import { addEmployee, getEmployeesCurrentCompany } from '../redux/reducers/employee'
 
 const PageTitle = styled.h2`
 	text-align: center;

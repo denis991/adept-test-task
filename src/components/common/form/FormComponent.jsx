@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react'
 
 import styled from 'styled-components'
-import AppButton from '../../ui/AppButton'
+import AppButton from '../../css/AppButton'
 
 const Form = styled.form`
 	display: flex;

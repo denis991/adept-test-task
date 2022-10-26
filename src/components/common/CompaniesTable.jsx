@@ -7,16 +7,16 @@ import {
 	getCompaniesList,
 	getCompaniesLoadingStatus,
 	loadCompaniesExtraList,
-} from '../../store/company'
+} from '../../redux/reducers/company'
 import {
 	clearEmployeesList,
 	getEmployeesCurrentCompany,
 	loadEmployeesList,
 	setEmployeesCurrentCompany,
-} from '../../store/employee'
-import AppTable from '../ui/AppTable'
-import Loader from '../ui/Loader'
-import TableContainer from '../ui/TableContainer'
+} from '../../redux/reducers/employee'
+import AppTable from '../css/AppTable'
+import Loader from '../css/Loader'
+import TableContainer from '../css/TableContainer'
 import LoadButton from '../table/LoadButton'
 import TableTitle from '../table/TableTitle'
 import TableThead from '../table/TableThead'

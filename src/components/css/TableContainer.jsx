@@ -11,13 +11,12 @@ const TableContainer = styled.div`
 	justify-content: space-between;
 	padding: 5px;
 	margin: 5px;
-	border: 1px solid #aaa;
 	overflow: auto;
-
 	@media (max-width: 768px) {
-		height: 40vh;
+    height: 40vh;
 		min-height: 40vh;
 	}
-`
+  `
+  // border: 1px solid #aaa;
 
 export default TableContainer

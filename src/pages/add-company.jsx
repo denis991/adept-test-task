@@ -3,7 +3,7 @@ import styled from 'styled-components'
 import FormComponent from '../components/common/form/FormComponent'
 import TextField from '../components/common/form/TextField'
 import { useDispatch } from 'react-redux'
-import { addCompany } from '../store/company'
+import { addCompany } from '../redux/reducers/company'
 import { useNavigate } from 'react-router-dom'
 
 const PageTitle = styled.h2`

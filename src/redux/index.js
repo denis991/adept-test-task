@@ -1,7 +1,7 @@
 import { configureStore } from '@reduxjs/toolkit'
-import errorsReducer from './error'
-import companyReducer from './company'
-import employeeReducer from './employee'
+import errorsReducer from './reducers/error'
+import companyReducer from './reducers/company'
+import employeeReducer from './reducers/employee'
 
 const store = configureStore({
 	reducer: {
