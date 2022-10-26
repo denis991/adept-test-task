@@ -77,7 +77,7 @@ const CompaniesTable = () => {
 								checkboxChecked={checkedAll}
 								names={[
 									'Название',
-									'Количество сотрудников',
+									'Кол-во людей',
 									'Адрес',
 								]}
 							/>
